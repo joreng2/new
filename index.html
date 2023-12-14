@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".gnb>li").mouseenter(function(){
+                $(this).children(".sub").stop().slideDown();
+
+                $(".gnb>li").mouseleave(function(){
+                    $(this).children(".sub").stop().slideUp();
+                })
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="header">
+        <div class="head1">
+            <h1 class="logo">logo</h1>
+        </div>
+        <div class="head2">
+            <div class="gnb_center">
+                <ul class="gnb clearFix">
+                    <li>
+                        <a href="#">브랜드</a>
+                        <ul class="sub">
+                            <li><a href="#">About DORCO mychef</a></li>
+                            <li><a href="#">도루코 마이셰프 캠페인</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">지난 樂캠페인</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">제품</a>
+                        <ul class="sub">
+                            <li><a href="#">About DORCO mychef</a></li>
+                            <li><a href="#">도루코 마이셰프 캠페인</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">지난 樂캠페인</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">이벤트</a>
+                        <ul class="sub">
+                            <li><a href="#">About DORCO mychef</a></li>
+                            <li><a href="#">도루코 마이셰프 캠페인</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">지난 樂캠페인</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">고객센터</a>
+                        <ul class="sub">
+                            <li><a href="#">About DORCO mychef</a></li>
+                            <li><a href="#">도루코 마이셰프 캠페인</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">지난 樂캠페인</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="main_visual">
+                <ul class="icon">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="dot clearFix">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="section">
+        <div class="con1_back_img">
+            <div class="con1_txt">
+                <h1>mychef Product</h1>
+                <p>도루코 마이셰프의 다양한 제품을 만나보세요</p>
+            </div>
+
+            <div class="con_box clearFix">
+                <div class="box1"></div>
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <div class="box4"></div>
+                <div class="box5"></div>
+                <div class="box6"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
