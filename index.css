@@ -42,6 +42,10 @@ img{border:0; vertical-align: top;}
     text-align:center;
     margin:0 auto;
 }
+
+#header .head2 .gnb>li:hover{
+    background-color:rgba(0, 0, 0, 0.644);
+}
 #header .head2 .gnb>li{
     float:left;
     width: 150px;
